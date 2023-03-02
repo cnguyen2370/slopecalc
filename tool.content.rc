@@ -1,0 +1,17 @@
+{
+    "map": {
+        "ar_cl.title": "Select Access Road",
+        "ar_width.title": "Access Road Width",
+        "cp_cl.title": "Select Crane Path",
+        "cp_width.title": "Crane Path Width",
+        "output_workspace.title": "Select Workspace",
+        "sp_cl.title": "Select Shared Path",
+        "sp_width.title": "Shared Path Width",
+        "surface.title": "Surface",
+        "title": "New Slope Analysis Tool Backup",
+        "tool_selection.domain.Access Roads": "Access Roads",
+        "tool_selection.domain.Crane Path": "Crane Path",
+        "tool_selection.domain.Shared Path": "Shared Path",
+        "tool_selection.title": "Select tool(s)"
+    }
+}

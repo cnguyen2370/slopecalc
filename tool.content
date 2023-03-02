@@ -1,0 +1,96 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.0",
+    "product": "100",
+    "params": {
+        "Output_Workspace": {
+            "displayname": "$rc:output_workspace.title",
+            "datatype": {
+                "type": "DEWorkspace"
+            }
+        },
+        "Tool_Selection": {
+            "displayname": "$rc:tool_selection.title",
+            "datatype": {
+                "type": "GPMultiValue",
+                "datatype": {
+                    "type": "GPString"
+                }
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "Access Roads",
+                        "code": "$rc:tool_selection.domain.Access Roads"
+                    },
+                    {
+                        "value": "Crane Path",
+                        "code": "$rc:tool_selection.domain.Crane Path"
+                    },
+                    {
+                        "value": "Shared Path",
+                        "code": "$rc:tool_selection.domain.Shared Path"
+                    }
+                ]
+            }
+        },
+        "AR_CL": {
+            "type": "optional",
+            "displayname": "$rc:ar_cl.title",
+            "datatype": {
+                "type": "GPFeatureLayer"
+            }
+        },
+        "CP_CL": {
+            "type": "optional",
+            "displayname": "$rc:cp_cl.title",
+            "datatype": {
+                "type": "GPFeatureLayer"
+            }
+        },
+        "SP_CL": {
+            "type": "optional",
+            "displayname": "$rc:sp_cl.title",
+            "datatype": {
+                "type": "GPFeatureLayer"
+            }
+        },
+        "AR_Width": {
+            "type": "optional",
+            "displayname": "$rc:ar_width.title",
+            "datatype": {
+                "type": "GPDouble"
+            }
+        },
+        "CP_Width": {
+            "type": "optional",
+            "displayname": "$rc:cp_width.title",
+            "datatype": {
+                "type": "GPDouble"
+            }
+        },
+        "SP_Width": {
+            "type": "optional",
+            "displayname": "$rc:sp_width.title",
+            "datatype": {
+                "type": "GPDouble"
+            }
+        },
+        "Surface": {
+            "displayname": "$rc:surface.title",
+            "datatype": {
+                "type": "GPComposite",
+                "datatypes": [
+                    {
+                        "type": "GPTinLayer"
+                    },
+                    {
+                        "type": "GPRasterLayer"
+                    }
+                ]
+            }
+        }
+    }
+}
